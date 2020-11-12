@@ -1,0 +1,50 @@
+/*HEADER*/
+
+.contenedor {
+  width: 80%;
+}
+.header {
+  background-color: #f8f8f8;
+}
+
+/*BUSCADOR*/
+.contenedor-buscador {
+  width: 50%;
+  margin: 0 auto;
+  height: 2rem;
+}
+
+.buscador {
+  text-align: center;
+  height: 12%;
+}
+
+.bu {
+  position: relative;
+  display: flex;
+}
+input.buscar {
+  border-radius: 10px;
+  z-index: 3;
+  margin: 3rem;
+  height: 20px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  display: flex;
+}
+i {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  position: relative;
+  top: 5%;
+  left: 2px;
+}
+
+/*TARJETAS*/
+
+.tarjetas {
+  width: 80%;
+  margin: 15rem auto;
+}

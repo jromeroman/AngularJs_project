@@ -1,0 +1,42 @@
+/*TARJETAS*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: rgb(247, 241, 241);
+}
+img {
+  width: 100%;
+}
+h1 {
+  font-size: 1.5rem;
+}
+
+.tarjetas {
+  width: 80%;
+  margin: 10rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tarjeta {
+  width: 31.5%;
+  height: 40%;
+  margin: 0.5rem;
+  border: 1px solid #e1e1e1;
+}
+.descripcion {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #5481c3;
+}
+.desc-heroes {
+  width: 80%;
+  margin: 1rem auto;
+}
+p {
+  font-size: 1rem;
+  color: rgb(153, 148, 148);
+}
